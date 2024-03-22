@@ -73,7 +73,7 @@ body {
 }
 
 .under {
-    padding-left: 540px;
+    padding-left: 34rem;
     /*padding-top: 150px; */
     justify-content: center;
     text-align: center;
@@ -156,4 +156,33 @@ body {
 .pad.userFlash {
     /* background-color: grey; */
     opacity: 0.4;
+}
+
+/*RESPONSIVENESS*/
+
+@media only screen and (max-width: 768px) {
+    .under {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .simon {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .simon .display {
+        font-size: 14px;
+        width: 80px;
+        padding-top: 30px;
+        height: 50px;
+        margin: -40px;
+    }
+
+    .pad {
+        width: 120px;
+        height: 120px;
+    }
 }
